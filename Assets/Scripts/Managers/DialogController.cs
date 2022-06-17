@@ -108,7 +108,7 @@ public class DialogController : MonoBehaviour
                 SetTextMeshObj(dialogAsset.strings[index].colorText);
 
                 //set animation
-                PlayerScript.Instance.GetComponent<PlayerMovementTest>().ChangeAnimation(dialogAsset.strings[index].emotion.ToString());
+              //  PlayerScript.Instance.GetComponent<PlayerMovementTest>().ChangeAnimation(dialogAsset.strings[index].emotion.ToString());
 
                 StartCoroutine(coroutine);
             }
