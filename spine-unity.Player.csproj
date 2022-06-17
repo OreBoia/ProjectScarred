@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A2ED34C0-46D5-5A6B-AACF-B810B8B984D9}</ProjectGuid>
+    <ProjectGuid>{3440ED87-947B-3B5F-6D9E-FCA06E326CC7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>spine-unity</AssemblyName>
@@ -53,7 +53,7 @@
     <UnityVersion>2020.3.33f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="F:\Programs\VisualStudio2019\IDE\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\FollowLocationRigidbody2D.cs" />
@@ -719,11 +719,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="spine-csharp.Player.csproj">
-      <Project>{87EB8EE2-D9B0-2833-CE53-27D79B4EDDD8}</Project>
+      <Project>{77F0EFB7-D974-A892-C2DC-2420DFC50678}</Project>
       <Name>spine-csharp.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{10794799-9EAF-051C-1CAE-E7D627D4AE35}</Project>
+      <Project>{70BDCAE5-A496-B97D-BAA2-7F83C5073957}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
