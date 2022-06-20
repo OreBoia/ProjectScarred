@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strings:
   - sentence: "She\u2019s ready for you,"
-    id: 7
+    id: 6
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: please go ahead.
-    id: 7
+    id: 6
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}

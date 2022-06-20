@@ -14,152 +14,152 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strings:
   - sentence: Finn?
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "Oh, Jason! Hi\u2026"
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "It\u2019s been a while\u2026"
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: Yes.
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "\u2026"
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: I hate that we drifted apart.
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "Yeah\u2026"
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: 'I still remember when you talked to me for the first time '
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "I was in your father\u2019s vintage store and-"
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: And you wanted to buy the vinyl that I was saving, yes.
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "\u2026"
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "I was afraid I messed up that time in the forest\u2026"
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: 'Ah, come on! '
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: You were drunk for the first time,
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "it\u2019s normal to be reckless! "
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: 'We were just worried about the injuries. '
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: Luckily the paramedics arrived fast enough!
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "Mmm\u2026"
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: I still feel guilty.
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "Oh, so that\u2019s the reason you disappeared!"
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: We were worried about you,
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "but you didn\u2019t answer any of our calls and texts."
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "No\u2026"
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "It wasn\u2019t just that\u2026"
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: So what was the reason?
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "\u2026"
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "We\u2019ve been friends since forever."
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: Remember that when you feel like telling me,
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: I will be ready to listen.
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: Thank you.
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}

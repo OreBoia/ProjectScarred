@@ -14,62 +14,62 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strings:
   - sentence: A dragon
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: 'What? '
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "It\u2019s obviously a lizard!"
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "Mmmh\u2026"
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: I can see it
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: A dragon is cooler than a lizard, though.
-    id: 9
+    id: 8
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "We are not saying what\u2019s cooler, Joe."
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: Come on, we are in our twenties and watching the clouds,
-    id: 9
+    id: 8
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: at least a dragon is better,
-    id: 9
+    id: 8
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "isn\u2019t it?"
-    id: 9
+    id: 8
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "I think it doesn\u2019t make much difference\u2026"
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: We are still idiots.
-    id: 4
+    id: 3
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}

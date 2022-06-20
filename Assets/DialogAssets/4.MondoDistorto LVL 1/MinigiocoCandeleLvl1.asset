@@ -14,43 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strings:
   - sentence: "This smell\u2026 "
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: I remember.
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: Bonnie used to have these scented candles in her apartment all the
       time.
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "Also that night they were burning\u2026"
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: MINIGIOCO
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: Why are you putting so much effort into doing this?
-    id: 3
+    id: 2
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: You know that nothing will change.
-    id: 3
+    id: 2
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: ...
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}

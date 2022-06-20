@@ -24,12 +24,12 @@ MonoBehaviour:
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: Good morning.
-    id: 10
+    id: 9
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: Yes, it really is.
-    id: 10
+    id: 9
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}

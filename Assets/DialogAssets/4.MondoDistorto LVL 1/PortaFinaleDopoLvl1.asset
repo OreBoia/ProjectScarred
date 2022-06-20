@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   strings:
   - sentence: Are you sure you want to do it?
-    id: 3
+    id: 2
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "I don\u2019t think you are strong enough to face what\u2019s behind
       there."
-    id: 3
+    id: 2
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: "I need to do it\u2026"
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
   - sentence: I have to deal with this.
-    id: 1
+    id: 0
     emotion: 0
     colorFrame: {r: 0.77254903, g: 0.77254903, b: 0.7254902, a: 1}
     colorText: {r: 0, g: 0, b: 0, a: 1}
