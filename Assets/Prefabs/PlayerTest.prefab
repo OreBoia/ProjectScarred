@@ -609,6 +609,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 0}
+<<<<<<< HEAD
+=======
+  leftBubblePos: {fileID: 689989050956747689}
+  rightBubblePos: {fileID: 220255551}
+  eventObj: {fileID: 0}
+>>>>>>> 59c27e3 (Correzioni Confilitti)
 --- !u!114 &3456019637344428636
 MonoBehaviour:
   m_ObjectHideFlags: 0

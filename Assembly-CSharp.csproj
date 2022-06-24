@@ -66,6 +66,10 @@
     <Compile Include="Assets\Scripts\Minigame Candles Scripts\CandleScript.cs" />
     <Compile Include="Assets\Scripts\Dialog Scripts\NPCScripts.cs" />
     <Compile Include="Assets\Scripts\Minigame Plant Scripts\LeafScripts.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Assets\Scripts\IMinigame.cs" />
+>>>>>>> 59c27e3 (Correzioni Confilitti)
     <Compile Include="Assets\Scripts\Dialog Scripts\SetPointScript.cs" />
     <Compile Include="Assets\Scripts\Managers\GameController.cs" />
     <Compile Include="Assets\Scripts\Dialog Scripts\Events\EventScript.cs" />
