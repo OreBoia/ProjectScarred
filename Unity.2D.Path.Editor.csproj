@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3BD07642-46B7-CD28-D9DA-8322D5B3BECE}</ProjectGuid>
+    <ProjectGuid>{E259BB0F-4686-BE40-FBD2-5C55A96A72B7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Path.Editor</AssemblyName>
@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.15</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.14</UnityProjectGeneratorVersion>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2020.3.33f1</UnityVersion>
@@ -56,54 +56,54 @@
     <Analyzer Include="F:\Programs\VisualStudio2019\IDE\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\GUIState.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Shapes\IShape.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Shapes\Spline.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\Drawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\BezierUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\SliderAction.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\ScriptablePathInspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\PathEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\MultipleEditablePathController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\Control.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\RectSelector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\PathEditorToolExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\GenericScriptablePathInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\EditablePathController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\ScriptableData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\EditablePath.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\DefaultControl.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\HoveredControlAction.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\Snapping.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\PathComponentEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\IDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\PathEditorTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\CreatePointAction.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\IEditablePath.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Selection\ISelectable.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\ScriptablePathInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\GenericControl.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\IUndoObject.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\IEditablePathController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\GenericScriptablePath.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Selection\IndexedSelection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\CommandAction.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\EditablePathExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\ControlPoint.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\EditablePathUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\IGUIState.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\ScriptablePath.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Selection\PointRectSelector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\Drawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\ISnapping.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\ClickAction.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Shapes\Spline.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Shapes\Polygon.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Shapes\ShapeExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\GenericDefaultControl.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Selection\ISelection.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\GUIAction.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Selection\SerializableSelection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Selection\ISelector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\LayoutData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Selection\PointRectSelector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\RectSelector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\Control.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\ControlPoint.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\GUISystem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\IEditablePath.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\EditablePathUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\IEditablePathController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\Snapping.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\PathEditorTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Selection\IndexedSelection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\MultipleEditablePathController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\PathEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Shapes\IShape.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\PathComponentEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\EditablePath.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\CommandAction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\PathEditorToolExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\IDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\ISnapping.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Shapes\Polygon.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\ScriptablePath.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Selection\ISelector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\GUIState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Shapes\ShapeExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Selection\ISelection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\GenericScriptablePath.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\IUndoObject.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\ClickAction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditablePath\EditablePathExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\GenericScriptablePathInspector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\LayoutData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\GenericDefaultControl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\DefaultControl.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\CreatePointAction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\EditorTool\ScriptableData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Selection\SerializableSelection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\HoveredControlAction.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\IMGUI\GUIFramework\IGUIState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Selection\ISelectable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.2d.path@4.0.2\Editor\Unity.2D.Path.Editor.asmdef" />
@@ -724,19 +724,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{5C9EFF1B-7B82-EFC7-2109-F1A4283355FF}</Project>
+      <Project>{A20CFAA2-730B-6F20-374E-C788D031CA05}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{7AE2E0D5-2E68-A747-8F9E-DF1928843385}</Project>
+      <Project>{4A454E19-6349-D723-F423-0A0DEED1DEE2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{24D1CE28-1929-1194-F062-147AF4079653}</Project>
+      <Project>{32E09725-BBF0-D4C1-EE46-0CBFD4151D11}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{82939DE5-2C90-03D8-F437-97F3C477A7F7}</Project>
+      <Project>{35F7B66B-4A78-F157-1586-3E54CDC42B00}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

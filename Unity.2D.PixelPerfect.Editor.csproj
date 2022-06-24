@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C00738AB-3E32-0C25-96FC-F1075DC3B7F3}</ProjectGuid>
+    <ProjectGuid>{6FFD9470-97C8-15B0-4000-4068DC54961C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.PixelPerfect.Editor</AssemblyName>
@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.15</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.14</UnityProjectGeneratorVersion>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2020.3.33f1</UnityVersion>
@@ -56,9 +56,9 @@
     <Analyzer Include="F:\Programs\VisualStudio2019\IDE\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1\Editor\PixelPerfectCameraEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1\Editor\CinemachinePixelPerfectEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1\Editor\ObjectMenuCreation\GameObjectCreation.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1\Editor\PixelPerfectCameraEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1\Editor\Unity.2D.PixelPerfect.Editor.asmdef" />
@@ -679,23 +679,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
-      <Project>{34D5805D-5A60-3E08-78D7-9FAA9E6FDB2A}</Project>
+      <Project>{73369DA0-F6B4-3D88-15E4-C08A10344667}</Project>
       <Name>Unity.2D.PixelPerfect</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{5C9EFF1B-7B82-EFC7-2109-F1A4283355FF}</Project>
+      <Project>{A20CFAA2-730B-6F20-374E-C788D031CA05}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{7AE2E0D5-2E68-A747-8F9E-DF1928843385}</Project>
+      <Project>{4A454E19-6349-D723-F423-0A0DEED1DEE2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{24D1CE28-1929-1194-F062-147AF4079653}</Project>
+      <Project>{32E09725-BBF0-D4C1-EE46-0CBFD4151D11}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{82939DE5-2C90-03D8-F437-97F3C477A7F7}</Project>
+      <Project>{35F7B66B-4A78-F157-1586-3E54CDC42B00}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

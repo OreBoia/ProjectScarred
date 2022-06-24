@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,11 +12,18 @@ public class PlayerEventCheck : MonoBehaviour
 
         if (eventObj != null)
         {
-            //Debug.Log("COLLISION " + collision);
-            DialogController.Instance.dialogAsset = eventObj.dialogAsset;
-            DialogController.Instance.AddSpeaker();
-            DialogController.Instance.setPointObj = eventObj.setPoint;
-            //GAME STATUS = INDIALOG
+            if (eventObj.isMiniGame == false)
+            {
+                //Debug.Log("COLLISION " + collision);
+                DialogController.Instance.dialogAsset = eventObj.dialogAsset;
+                DialogController.Instance.AddSpeaker();
+                DialogController.Instance.setPointObj = eventObj.setPoint;
+                //GAME STATUS = INDIALOG
+            }
+            else
+            {
+                PlayerScript.Instance.eventObj = eventObj;
+            }
         }
     }
 
@@ -29,6 +37,11 @@ public class PlayerEventCheck : MonoBehaviour
         {
             DialogController.Instance.Reset();
             //aggiungere controllo quando non c'è il dialog asset
+        }
+
+        if (PlayerScript.Instance.eventObj != null)
+        {
+            PlayerScript.Instance.eventObj = null;
         }
     }
 }

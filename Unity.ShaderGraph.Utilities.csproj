@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D349089B-8334-796C-C23E-24ACDC4ABB99}</ProjectGuid>
+    <ProjectGuid>{31115571-F800-9D8E-75A8-62C17780EF38}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ShaderGraph.Utilities</AssemblyName>
@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.15</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.14</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2020.3.33f1</UnityVersion>
@@ -56,10 +56,10 @@
     <Analyzer Include="F:\Programs\VisualStudio2019\IDE\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Utilities\EnumInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Utilities\GenerationAPIAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Utilities\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Utilities\StringBuilderExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Utilities\EnumInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.shadergraph@10.8.1\Editor\Utilities\Unity.ShaderGraph.Utilities.asmdef" />
@@ -680,19 +680,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{5C9EFF1B-7B82-EFC7-2109-F1A4283355FF}</Project>
+      <Project>{A20CFAA2-730B-6F20-374E-C788D031CA05}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{7AE2E0D5-2E68-A747-8F9E-DF1928843385}</Project>
+      <Project>{4A454E19-6349-D723-F423-0A0DEED1DEE2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{24D1CE28-1929-1194-F062-147AF4079653}</Project>
+      <Project>{32E09725-BBF0-D4C1-EE46-0CBFD4151D11}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{82939DE5-2C90-03D8-F437-97F3C477A7F7}</Project>
+      <Project>{35F7B66B-4A78-F157-1586-3E54CDC42B00}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

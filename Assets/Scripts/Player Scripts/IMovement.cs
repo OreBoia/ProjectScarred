@@ -27,7 +27,7 @@ public class IMovement : MonoBehaviour
     private void Update()
     {
         MovePlayer();
-        scheme = playerInput.currentControlScheme.ToString();
+        //scheme = playerInput.currentControlScheme.ToString();
         Debug.Log(sp.Skeleton.Skin);
     }
 
@@ -36,19 +36,23 @@ public class IMovement : MonoBehaviour
         if (movementVector.x < 0f)
         {
             ChangeAnimation("camminata");
-            sp.Skeleton.ScaleX = -1;
             sp.Skeleton.SetSkin("verso sx");
+            sp.Skeleton.ScaleX = -1;
         }
         else if (movementVector.x > 0f)
         {
             ChangeAnimation("camminata");
-            sp.Skeleton.ScaleX = 1;
             sp.Skeleton.SetSkin("verso dx");
+            sp.Skeleton.ScaleX = 1;
         }
         else if (movementVector.x == 0f)
         {
             ChangeAnimation("idle");
         }
+
+        sp.Skeleton.SetSlotsToSetupPose();
+
+        sp.LateUpdate();
     }
 
     public void ChangeAnimation(string animationName)

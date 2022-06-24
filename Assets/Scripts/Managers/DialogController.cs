@@ -5,7 +5,6 @@ using TMPro;
 using System.Linq;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
-using System;
 
 public enum DialagoStatus { Init, Typing, EndOfSentence, EndOfDialog }
 
@@ -96,6 +95,7 @@ public class DialogController : MonoBehaviour
 
             if (index == 0 && setPointObj != null)
             {
+                Debug.Log("SETPOSITION");
                 SetPosition(setPointObj);
             }
 
@@ -193,6 +193,20 @@ public class DialogController : MonoBehaviour
         Image sp = canvas.gameObject.GetComponentInChildren<Image>();
 
         sp.color = colorFrame;
+
+        if (gameObject.GetComponent<PlayerScript>())
+        {
+            if (dialogAsset.strings[index].bubblePosition == BubblePosition.Right)
+            {
+                canvas.canvas.transform.position =
+                    gameObject.GetComponent<PlayerScript>().rightBubblePos.transform.position;
+            }
+            else
+            {
+                canvas.canvas.transform.position =
+                    gameObject.GetComponent<PlayerScript>().leftBubblePos.transform.position;
+            }
+        }
     }
 
     //DISATTIVA IL CANVAS DELLO SPEAKER
@@ -252,9 +266,10 @@ public class DialogController : MonoBehaviour
 
     public void SetPosition(GameObject setPoint)
     {
-        Rigidbody2D playerTransform = GameObject.FindObjectOfType<PlayerScript>().gameObject.GetComponent<Rigidbody2D>();
-
-        playerTransform.MovePosition(new Vector2(setPoint.transform.position.x, setPoint.transform.position.y));
+        Debug.Log("SETPOSITION");
+        Transform playerTransform = GameObject.FindObjectOfType<PlayerScript>().gameObject.GetComponent<Transform>();
+        Debug.Log(playerTransform);
+        playerTransform.position = new Vector2(setPoint.transform.position.x, playerTransform.position.y);
     }
 
     public void PrintSpeakers()

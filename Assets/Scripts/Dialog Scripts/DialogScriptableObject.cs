@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum Emotion { Idle, Sad, Angry, Happy }
+public enum BubblePosition { Right, Left}
 
 public class DialogScriptableObject : ScriptableObject
 {
@@ -14,6 +15,7 @@ public class DialogScriptableObject : ScriptableObject
         public Emotion emotion;
         public Color colorFrame;
         public Color colorText;
+        public BubblePosition bubblePosition;
     }
 
     public List<DialogString> strings = new List<DialogString>();

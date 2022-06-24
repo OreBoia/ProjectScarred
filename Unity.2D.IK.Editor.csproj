@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{37EEC178-7D6C-00F9-0984-02C3E3DED1D1}</ProjectGuid>
+    <ProjectGuid>{ED6597BA-AF6F-924F-B185-9A2026C7665C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.IK.Editor</AssemblyName>
@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.15</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.14</UnityProjectGeneratorVersion>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2020.3.33f1</UnityVersion>
@@ -56,17 +56,17 @@
     <Analyzer Include="F:\Programs\VisualStudio2019\IDE\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.0\IK\Editor\IKEditorManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.0\IK\Editor\IKGizmos.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.0\IK\Editor\Inspectors\Solver2DEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.0\IK\Editor\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.0\IK\Editor\Inspectors\CCDSolver2DEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.0\IK\Editor\Inspectors\IKManager2DEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.0\IK\Editor\Inspectors\LimbSolver2DEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.0\IK\Editor\Inspectors\FabrikSolver2DEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.1\IK\Editor\IKGizmos.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.1\IK\Editor\IKEditorManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.1\IK\Editor\Inspectors\CCDSolver2DEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.1\IK\Editor\Inspectors\FabrikSolver2DEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.1\IK\Editor\Inspectors\IKManager2DEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.1\IK\Editor\Inspectors\LimbSolver2DEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.1\IK\Editor\Inspectors\Solver2DEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.animation@5.2.1\IK\Editor\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\PackageCache\com.unity.2d.animation@5.2.0\IK\Editor\Unity.2D.IK.Editor.asmdef" />
+    <None Include="Library\PackageCache\com.unity.2d.animation@5.2.1\IK\Editor\Unity.2D.IK.Editor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -684,43 +684,43 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{E1506AB3-FD0F-76EB-4A6B-847A88D584CC}</Project>
+      <Project>{8E3E47C9-4494-655F-9FDC-E789ACDB61FB}</Project>
       <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
-      <Project>{6A50A53D-CE14-0787-69EF-0ABBF8F84D27}</Project>
+      <Project>{586DBD83-173F-2A38-0631-F5741D28AD25}</Project>
       <Name>Unity.InternalAPIEngineBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{597C2E49-9D98-E0FC-C1A3-5A1C6DCAC2C3}</Project>
+      <Project>{DD105CB7-D147-531B-1823-C86C778987C3}</Project>
       <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{FC7B161D-15DE-AF18-98B6-F068CE030628}</Project>
+      <Project>{F7AE1C46-51F6-9E3C-C8E4-423FBEB49E60}</Project>
       <Name>Unity.2D.Common.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
-      <Project>{5587C28A-3B2D-4C00-0A57-043C50443B09}</Project>
+      <Project>{F515BF58-CCC0-1F6D-9CD4-9574391C470E}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
-      <Project>{F4B5D860-0777-DC94-1096-985E06306668}</Project>
+      <Project>{A0390061-AA6A-9777-C352-5C7325CB2784}</Project>
       <Name>Unity.2D.Animation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{5C9EFF1B-7B82-EFC7-2109-F1A4283355FF}</Project>
+      <Project>{A20CFAA2-730B-6F20-374E-C788D031CA05}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{7AE2E0D5-2E68-A747-8F9E-DF1928843385}</Project>
+      <Project>{4A454E19-6349-D723-F423-0A0DEED1DEE2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{24D1CE28-1929-1194-F062-147AF4079653}</Project>
+      <Project>{32E09725-BBF0-D4C1-EE46-0CBFD4151D11}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{82939DE5-2C90-03D8-F437-97F3C477A7F7}</Project>
+      <Project>{35F7B66B-4A78-F157-1586-3E54CDC42B00}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

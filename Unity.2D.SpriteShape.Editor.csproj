@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8A71981D-9AC4-6DBD-7186-5E03958B237E}</ProjectGuid>
+    <ProjectGuid>{F149E1E8-5D7F-364B-10DD-3AB43CC582D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.SpriteShape.Editor</AssemblyName>
@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.15</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.14</UnityProjectGeneratorVersion>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2020.3.33f1</UnityVersion>
@@ -56,25 +56,25 @@
     <Analyzer Include="F:\Programs\VisualStudio2019\IDE\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\ObjectMenuCreation\GameObjectCreation.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeControllerEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\AngleRangeController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeEditorAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeHandleUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\AngleRangeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\ContextMenu.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeEditorTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\EditorSpriteGUIUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeEditorGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\ObjectMenuCreation\AssetCreation.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteSelector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SceneDragAndDrop.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\ObjectMenuCreation\GameObjectCreation.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\AngleRangeGUI.cs" />
-    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeEditorUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeControllerEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteSelector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeAssetPostProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\AngleRangeController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\EditorSpriteGUIUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeEditorTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeEditorUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeEditorGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeHandleUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeEditorAnalytics.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SpriteShapeAnalytics.cs" />
+    <Compile Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\SceneDragAndDrop.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.2d.spriteshape@5.3.0\Editor\Handles\Shaders\Sprites-Inspector.shader" />
@@ -696,39 +696,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{E1506AB3-FD0F-76EB-4A6B-847A88D584CC}</Project>
+      <Project>{8E3E47C9-4494-655F-9FDC-E789ACDB61FB}</Project>
       <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{597C2E49-9D98-E0FC-C1A3-5A1C6DCAC2C3}</Project>
+      <Project>{DD105CB7-D147-531B-1823-C86C778987C3}</Project>
       <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{FC7B161D-15DE-AF18-98B6-F068CE030628}</Project>
+      <Project>{F7AE1C46-51F6-9E3C-C8E4-423FBEB49E60}</Project>
       <Name>Unity.2D.Common.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
-      <Project>{26AF03A8-819F-B2B0-697A-8AD07961F5A2}</Project>
+      <Project>{53A58448-A210-1F79-60F6-EA69EE79F223}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Path.Editor.csproj">
-      <Project>{3BD07642-46B7-CD28-D9DA-8322D5B3BECE}</Project>
+      <Project>{E259BB0F-4686-BE40-FBD2-5C55A96A72B7}</Project>
       <Name>Unity.2D.Path.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{5C9EFF1B-7B82-EFC7-2109-F1A4283355FF}</Project>
+      <Project>{A20CFAA2-730B-6F20-374E-C788D031CA05}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{7AE2E0D5-2E68-A747-8F9E-DF1928843385}</Project>
+      <Project>{4A454E19-6349-D723-F423-0A0DEED1DEE2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{24D1CE28-1929-1194-F062-147AF4079653}</Project>
+      <Project>{32E09725-BBF0-D4C1-EE46-0CBFD4151D11}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{82939DE5-2C90-03D8-F437-97F3C477A7F7}</Project>
+      <Project>{35F7B66B-4A78-F157-1586-3E54CDC42B00}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

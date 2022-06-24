@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RightSequenceScript : MonoBehaviour
+public class RightSequenceScript : IMinigame
 {
     public bool[] rightPosCheck = { false, false, false, false, false, false };
 
@@ -43,5 +43,6 @@ public class RightSequenceScript : MonoBehaviour
         }
 
         Debug.Log("WIN");
+        ExitMinigame();
     }
 }
